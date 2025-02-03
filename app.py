@@ -36,7 +36,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(STATIC_FOLDER, exist_ok=True)
 
-# OpenAI API configuration
+# OpenAI API
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Utility functions
